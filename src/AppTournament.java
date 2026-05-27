@@ -1,3 +1,6 @@
+import models.Athlete;
+import models.Club;
+import models.Tournament;
 
 public class AppTournament {
 
@@ -139,6 +142,15 @@ public class AppTournament {
                  * Aquí debe estar el código para ejecutar la aplicación, utilizando el
                  * TournamentController para mostrar los resultados de cada torneo.
                  */
+                public Tournament binarySearchByTotalStarterPointsFilaA(Tournament[] tournaments, int totalStarterPoints){
+                  int n=0;
+                  int i=1;
+                  int s= (n+i)/2;
+                }
+                System.out.println("las busquedas:" + tournaments.getTotalStarterPoints);
+               
+
+
 
         }
 }
